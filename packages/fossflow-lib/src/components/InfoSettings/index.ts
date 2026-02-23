@@ -1,0 +1,1 @@
+export { InfoSettings } from './InfoSettings';

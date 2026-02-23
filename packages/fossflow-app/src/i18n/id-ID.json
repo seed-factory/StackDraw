@@ -1,0 +1,86 @@
+{
+    "nav": {
+        "newDiagram": "Diagram Baru",
+        "save": "Simpan",
+        "saveAs": "Simpan Sebagai...",
+        "load": "Muat",
+        "openJSONFile": "Buka File JSON",
+        "exportJSON": "Ekspor JSON",
+        "exportCompactJSON": "Ekspor JSON Ringkas",
+        "exportImage": "Ekspor sebagai Gambar",
+        "exportImageHint": "Gunakan menu di dalam editor (ikon hamburger) untuk mengekspor sebagai gambar",
+        "settings": "Pengaturan",
+        "language": "Bahasa",
+        "saveSessionOnly": "Simpan (Sesi Saja)",
+        "loadSessionOnly": "Muat (Sesi Saja)",
+        "importFile": "Impor File",
+        "exportFile": "Ekspor File",
+        "quickSaveSession": "Simpan Cepat (Sesi)",
+        "serverStorage": "Penyimpanan Server"
+    },
+    "status": {
+        "current": "Saat Ini",
+        "untitled": "Diagram Tanpa Judul",
+        "modified": "Dimodifikasi",
+        "sessionStorageNote": "Hanya penyimpanan sesi - ekspor untuk menyimpan secara permanen"
+    },
+    "dialog": {
+        "save": {
+            "title": "Simpan Diagram (Sesi Saat Ini Saja)",
+            "warningTitle": "Penting",
+            "warningMessage": "Penyimpanan ini bersifat sementara dan akan hilang saat Anda menutup browser.",
+            "warningExport": "Gunakan <strong>Ekspor File</strong> untuk menyimpan pekerjaan Anda secara permanen.",
+            "warningExportText": "Gunakan",
+            "warningExportAction": "Ekspor File",
+            "warningExportSuffix": "untuk menyimpan pekerjaan Anda secara permanen.",
+            "placeholder": "Masukkan nama diagram",
+            "btnSave": "Simpan",
+            "btnCancel": "Batal"
+        },
+        "load": {
+            "title": "Muat Diagram (Sesi Saat Ini Saja)",
+            "noteTitle": "Catatan",
+            "noteMessage": "Penyimpanan ini bersifat sementara. Ekspor diagram Anda untuk menyimpannya secara permanen.",
+            "noSavedDiagrams": "Tidak ada diagram tersimpan ditemukan di sesi ini",
+            "updated": "Diperbarui",
+            "btnLoad": "Muat",
+            "btnDelete": "Hapus",
+            "btnClose": "Tutup"
+        },
+        "export": {
+            "title": "Ekspor Diagram",
+            "recommendedTitle": "Direkomendasikan",
+            "recommendedMessage": "Ini adalah cara terbaik untuk menyimpan pekerjaan Anda secara permanen.",
+            "noteMessage": "File JSON yang diekspor dapat diimpor nanti atau dibagikan dengan orang lain.",
+            "btnDownload": "Unduh JSON",
+            "btnCancel": "Batal"
+        },
+        "readOnly": {
+            "mode": "Mode Hanya-Baca",
+            "failed": "Gagal memuat diagram"
+        }
+    },
+    "toolbar": {
+        "new": "Baru",
+        "save": "Simpan",
+        "load": "Muat",
+        "export": "Ekspor",
+        "import": "Impor",
+        "current": "Saat Ini",
+        "untitled": "Tanpa Judul",
+        "autoSaved": "Otomatis disimpan"
+    },
+    "alert": {
+        "enterDiagramName": "Silakan masukkan nama diagram",
+        "diagramExists": "Diagram bernama \"{{name}}\" sudah ada di sesi ini. Ini akan menimpanya. Apakah Anda yakin ingin melanjutkan?",
+        "unsavedChanges": "Anda memiliki perubahan yang belum disimpan. Lanjutkan memuat?",
+        "createNewDiagram": "Buat diagram baru?",
+        "unsavedChangesExport": "Anda memiliki perubahan yang belum disimpan. Ekspor diagram Anda terlebih dahulu untuk menyimpannya. Lanjutkan?",
+        "confirmDelete": "Apakah Anda yakin ingin menghapus diagram ini?",
+        "storageFull": "Penyimpanan penuh! Membuka Pengelola Penyimpanan...",
+        "autoSaveFailed": "Penyimpanan penuh! Silakan gunakan Pengelola Penyimpanan untuk membebaskan ruang.",
+        "beforeUnload": "Anda memiliki perubahan yang belum disimpan. Apakah Anda yakin ingin keluar?",
+        "quotaExceeded": "Kuota penyimpanan terlampaui. Silakan ekspor diagram penting dan kosongkan beberapa ruang.",
+        "importFailed": "Gagal mengimpor file. Pastikan ini adalah file JSON yang valid."
+    }
+}

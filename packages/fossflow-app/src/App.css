@@ -1,0 +1,220 @@
+.App {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.toolbar {
+  background-color: var(--mantine-color-body);
+  border-bottom: 1px solid var(--mantine-color-default-border);
+  padding: 10px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.toolbar button {
+  padding: 8px 16px;
+  background-color: var(--mantine-color-blue-6);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.toolbar button:hover {
+  background-color: var(--mantine-color-blue-7);
+}
+
+.current-diagram {
+  margin-left: auto;
+  font-size: 14px;
+  color: var(--mantine-color-dimmed);
+}
+
+.stackdraw-container {
+  flex: 1;
+  width: 100%;
+  position: relative;
+  /* Remove background color to let Isoflow's grid show through */
+  /* background-color: #f9f9f9; */
+}
+
+/* Ensure Isoflow takes full height */
+.stackdraw-container > div {
+  height: 100%;
+}
+
+.dialog-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.dialog {
+  background-color: var(--mantine-color-body);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  min-width: 400px;
+  max-width: 600px;
+  max-height: 80vh;
+  overflow-y: auto;
+}
+
+.dialog h2 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: var(--mantine-color-text);
+}
+
+.dialog input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid var(--mantine-color-default-border);
+  border-radius: 4px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  background-color: var(--mantine-color-body);
+  color: var(--mantine-color-text);
+}
+
+.dialog-buttons {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+}
+
+.dialog-buttons button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.dialog-buttons button:first-child {
+  background-color: var(--mantine-color-blue-6);
+  color: white;
+}
+
+.dialog-buttons button:first-child:hover {
+  background-color: var(--mantine-color-blue-7);
+}
+
+.dialog-buttons button:last-child {
+  background-color: var(--mantine-color-gray-6);
+  color: white;
+}
+
+.dialog-buttons button:last-child:hover {
+  background-color: var(--mantine-color-gray-7);
+}
+
+.diagram-list {
+  margin-bottom: 20px;
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.diagram-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid var(--mantine-color-default-border);
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.diagram-item:hover {
+  background-color: var(--mantine-color-default-hover);
+}
+
+.diagram-actions {
+  display: flex;
+  gap: 5px;
+}
+
+.diagram-actions button {
+  padding: 4px 12px;
+  font-size: 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.diagram-actions button:first-child {
+  background-color: var(--mantine-color-green-6);
+  color: white;
+}
+
+.diagram-actions button:first-child:hover {
+  background-color: var(--mantine-color-green-7);
+}
+
+.diagram-actions button:last-child {
+  background-color: var(--mantine-color-red-6);
+  color: white;
+}
+
+.diagram-actions button:last-child:hover {
+  background-color: var(--mantine-color-red-7);
+}
+
+/* Dialog alerts - theme-aware */
+.dialog-warning {
+  background-color: var(--mantine-color-yellow-light);
+  border: 1px solid var(--mantine-color-yellow-light-hover);
+  padding: 15px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  color: var(--mantine-color-yellow-light-color);
+}
+
+.dialog-success {
+  background-color: var(--mantine-color-green-light);
+  border: 1px solid var(--mantine-color-green-light-hover);
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  color: var(--mantine-color-green-light-color);
+}
+
+.dialog-info {
+  background-color: var(--mantine-color-blue-light);
+  border: 1px solid var(--mantine-color-blue-light-hover);
+  padding: 15px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  color: var(--mantine-color-blue-light-color);
+}
+
+.dialog-tips {
+  background-color: var(--mantine-color-gray-light);
+  border: 1px solid var(--mantine-color-gray-light-hover);
+  padding: 15px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  color: var(--mantine-color-gray-light-color);
+}
+
+/* Readonly badge - blue theme for both light and dark modes */
+.readonly-badge {
+  background-color: var(--mantine-color-blue-light);
+  color: var(--mantine-color-blue-light-color);
+  border: 1px solid var(--mantine-color-blue-light-hover);
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-weight: 500;
+}

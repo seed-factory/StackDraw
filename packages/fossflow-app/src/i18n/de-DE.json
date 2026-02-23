@@ -1,0 +1,86 @@
+{
+    "nav": {
+        "newDiagram": "Neues Diagramm",
+        "save": "Speichern",
+        "saveAs": "Speichern als...",
+        "load": "Laden",
+        "openJSONFile": "JSON-Datei öffnen",
+        "exportJSON": "JSON exportieren",
+        "exportCompactJSON": "Kompaktes JSON exportieren",
+        "exportImage": "Als Bild exportieren",
+        "exportImageHint": "Verwenden Sie das Menü im Editor (Hamburger-Symbol), um als Bild zu exportieren",
+        "settings": "Einstellungen",
+        "language": "Sprache",
+        "saveSessionOnly": "Speichern (Nur Sitzung)",
+        "loadSessionOnly": "Laden (Nur Sitzung)",
+        "importFile": "Datei importieren",
+        "exportFile": "Datei exportieren",
+        "quickSaveSession": "Schnellspeichern (Sitzung)",
+        "serverStorage": "Serverspeicher"
+    },
+    "status": {
+        "current": "Aktuell",
+        "untitled": "Unbenanntes Diagramm",
+        "modified": "Geändert",
+        "sessionStorageNote": "Nur Sitzungsspeicher - zum dauerhaften Speichern exportieren"
+    },
+    "dialog": {
+        "save": {
+            "title": "Diagramm speichern (Nur aktuelle Sitzung)",
+            "warningTitle": "Wichtig",
+            "warningMessage": "Diese Speicherung ist temporär und geht verloren, wenn Sie den Browser schließen.",
+            "warningExport": "Verwenden Sie <strong>Datei exportieren</strong>, um Ihre Arbeit dauerhaft zu speichern.",
+            "warningExportText": "Verwenden Sie",
+            "warningExportAction": "Datei exportieren",
+            "warningExportSuffix": ", um Ihre Arbeit dauerhaft zu speichern.",
+            "placeholder": "Diagrammname eingeben",
+            "btnSave": "Speichern",
+            "btnCancel": "Abbrechen"
+        },
+        "load": {
+            "title": "Diagramm laden (Nur aktuelle Sitzung)",
+            "noteTitle": "Hinweis",
+            "noteMessage": "Diese Speicherungen sind temporär. Exportieren Sie Ihre Diagramme, um sie dauerhaft zu behalten.",
+            "noSavedDiagrams": "Keine gespeicherten Diagramme in dieser Sitzung gefunden",
+            "updated": "Aktualisiert",
+            "btnLoad": "Laden",
+            "btnDelete": "Löschen",
+            "btnClose": "Schließen"
+        },
+        "export": {
+            "title": "Diagramm exportieren",
+            "recommendedTitle": "Empfohlen",
+            "recommendedMessage": "Dies ist der beste Weg, Ihre Arbeit dauerhaft zu speichern.",
+            "noteMessage": "Exportierte JSON-Dateien können später importiert oder mit anderen geteilt werden.",
+            "btnDownload": "JSON herunterladen",
+            "btnCancel": "Abbrechen"
+        },
+        "readOnly": {
+            "mode": "Nur-Lese-Modus",
+            "failed": "Diagramm konnte nicht geladen werden"
+        }
+    },
+    "toolbar": {
+        "new": "Neu",
+        "save": "Speichern",
+        "load": "Laden",
+        "export": "Exportieren",
+        "import": "Importieren",
+        "current": "Aktuell",
+        "untitled": "Unbenannt",
+        "autoSaved": "Automatisch gespeichert"
+    },
+    "alert": {
+        "enterDiagramName": "Bitte geben Sie einen Diagrammnamen ein",
+        "diagramExists": "Ein Diagramm mit dem Namen \"{{name}}\" existiert bereits in dieser Sitzung. Dies wird es überschreiben. Möchten Sie fortfahren?",
+        "unsavedChanges": "Sie haben ungespeicherte Änderungen. Trotzdem laden?",
+        "createNewDiagram": "Neues Diagramm erstellen?",
+        "unsavedChangesExport": "Sie haben ungespeicherte Änderungen. Exportieren Sie zuerst Ihr Diagramm, um es zu speichern. Fortfahren?",
+        "confirmDelete": "Sind Sie sicher, dass Sie dieses Diagramm löschen möchten?",
+        "storageFull": "Speicher voll! Speicherverwaltung wird geöffnet...",
+        "autoSaveFailed": "Speicher voll! Bitte verwenden Sie die Speicherverwaltung, um Platz freizugeben.",
+        "beforeUnload": "Sie haben ungespeicherte Änderungen. Sind Sie sicher, dass Sie die Seite verlassen möchten?",
+        "quotaExceeded": "Speicherkontingent überschritten. Bitte exportieren Sie wichtige Diagramme und räumen Sie etwas Platz frei.",
+        "importFailed": "Datei konnte nicht importiert werden. Bitte stellen Sie sicher, dass es sich um eine gültige JSON-Datei handelt."
+    }
+}

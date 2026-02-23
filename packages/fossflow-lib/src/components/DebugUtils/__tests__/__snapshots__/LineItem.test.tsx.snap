@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LineItem matches snapshot 1`] = `
+<DocumentFragment>
+  <style
+    data-mantine-styles="true"
+  >
+    :root, :host{--mantine-font-size-xs: 0.75rem;--mantine-font-size-sm: 0.85rem;--mantine-font-size-md: 1rem;--mantine-font-size-lg: 1.125rem;--mantine-font-size-xl: 1.25rem;--mantine-shadow-xs: 0px 1px 2px rgba(0, 0, 0, 0.05);--mantine-shadow-sm: 0px 2px 4px rgba(0, 0, 0, 0.1);--mantine-shadow-md: 0px 4px 8px rgba(0, 0, 0, 0.12);--mantine-shadow-lg: 0px 8px 16px rgba(0, 0, 0, 0.15);--mantine-shadow-xl: 0px 10px 20px rgba(0, 0, 0, 0.25);--mantine-h1-font-size: 2rem;--mantine-h1-line-height: 1.2;--mantine-h2-font-size: 1.75rem;--mantine-h2-line-height: 1.2;--mantine-h3-font-size: 1.5rem;--mantine-h3-line-height: 1.2;--mantine-h4-font-size: 1.25rem;--mantine-h4-line-height: 1.2;--mantine-h5-font-size: 1.1rem;--mantine-h5-line-height: 1.2;--mantine-h6-font-size: 1rem;--mantine-h6-line-height: 1.2;}
+
+
+
+
+  </style>
+  <style
+    data-mantine-styles="classes"
+  >
+    @media (max-width: 35.99375em) {.mantine-visible-from-xs {display: none !important;}}@media (min-width: 36em) {.mantine-hidden-from-xs {display: none !important;}}@media (max-width: 47.99375em) {.mantine-visible-from-sm {display: none !important;}}@media (min-width: 48em) {.mantine-hidden-from-sm {display: none !important;}}@media (max-width: 61.99375em) {.mantine-visible-from-md {display: none !important;}}@media (min-width: 62em) {.mantine-hidden-from-md {display: none !important;}}@media (max-width: 74.99375em) {.mantine-visible-from-lg {display: none !important;}}@media (min-width: 75em) {.mantine-hidden-from-lg {display: none !important;}}@media (max-width: 87.99375em) {.mantine-visible-from-xl {display: none !important;}}@media (min-width: 88em) {.mantine-hidden-from-xl {display: none !important;}}
+  </style>
+  <div
+    class=""
+    style="display: flex; width: 100%;"
+  >
+    <div
+      class=""
+      style="width: 100px;"
+    >
+      <p
+        class="mantine-focus-auto m_b6d8b162 mantine-Text-root"
+      >
+        Snapshot Title
+      </p>
+    </div>
+    <div
+      class=""
+      style="flex-grow: 1;"
+    >
+      <div
+        class=""
+        style="display: inline-block; word-wrap: break-word; padding: 2px 4px 2px 4px; border-radius: 4px; max-width: 200px;"
+      >
+        <p
+          class="mantine-focus-auto m_b6d8b162 mantine-Text-root"
+          data-size="xs"
+          style="--text-fz: var(--mantine-font-size-xs); --text-lh: var(--mantine-line-height-xs);"
+        >
+          Snapshot Value
+        </p>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
